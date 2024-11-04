@@ -8,15 +8,15 @@
             <header class="entry-header">
                 <h1 class="entry-title"><?php the_title(); ?></h1>
                 <div class="entry-meta">
-                    <span class="posted-on">
+                    <span class="posted-on"> 
                         <?php _e('Publicado em', 'aqbank-theme'); ?> <?php echo get_the_date(); ?>
-                    </span>
+                    </span> 
                     <span class="byline">
                         <?php _e('por', 'aqbank-theme'); ?> <?php the_author(); ?>
-                    </span>
+                    </span> 
                 </div>
             </header>
-
+         </article>
             <div class="entry-content">
                 <?php the_content(); ?>
                 <?php
